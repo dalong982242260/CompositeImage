@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/viewGrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.demo.compositeimage.ImageSynthesisLayout
+            android:id="@+id/mImageSynthesisLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"/>
+
+        <!--<com.demo.compositeimage.ScaleImageView-->
+        <!--android:id="@+id/mScaleImageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:focusableInTouchMode="true"/>-->
+
+        <!--<com.demo.compositeimage.ImageBgView-->
+        <!--android:id="@+id/mImageBgView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+
+        <!--</com.demo.compositeimage.ImageSynthesisLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:padding="5dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/dalong"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:padding="3dp"
+                android:layout_marginRight="5dp"
+                android:lines="2"
+                android:hint="给你的靓车加句广告吧！"
+                android:textSize="10sp"
+                android:background="@drawable/rect_gray_2"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一个"/>
+
+        <Button
+            android:id="@+id/cut_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="截图"/>
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一个"/>
+    </LinearLayout>
+
+</LinearLayout>

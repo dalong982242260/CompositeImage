@@ -1,0 +1,64 @@
+{
+  "imageList": [
+    {
+      "offsetToLeft": "60",
+      "offsetToTop": "410",
+      "width": "630",
+      "height": "472",
+      "viewType": "carIcon"
+    },
+    {
+      "offsetToLeft": "0",
+      "offsetToTop": "0",
+      "width": "750",
+      "height": "1125",
+      "viewType": "background"
+    },
+    {
+      "offsetToLeft": "305",
+      "offsetToTop": "50",
+      "width": "140",
+      "height": "140",
+      "viewType": "headIcon"
+    },
+    {
+      "offsetToLeft": "262",
+      "offsetToTop": "202",
+      "width": "220",
+      "height": "60",
+      "viewType": "logoIcon"
+    }
+  ],
+  "textList": [
+    {
+      "offsetToLeft": "60",
+      "offsetToTop": "902",
+      "width": "433",
+      "height": "73",
+      "viewType": "brand",
+      "text": "86.45万",
+      "textSize": "64",
+      "textColor": "#000000"
+    },
+    {
+      "offsetToLeft": "493",
+      "offsetToTop": "902",
+      "width": "257",
+      "height": "69",
+      "viewType": "price",
+      "text": "86.45万",
+      "textSize": "64",
+      "textColor": "#000000"
+    },
+    {
+      "offsetToLeft": "60",
+      "offsetToTop": "1008",
+      "width": "399",
+      "height": "35",
+      "viewType": "firstPlateDate",
+      "text": "2014年12月上牌|12.32万公里",
+      "textSize": "28",
+      "textColor": "#666666"
+    }
+  ]
+}

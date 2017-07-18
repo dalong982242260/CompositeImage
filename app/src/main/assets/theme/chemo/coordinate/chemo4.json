@@ -1,0 +1,57 @@
+{
+  "imageList": [
+    {
+      "offsetToLeft": "34",
+      "offsetToTop": "303",
+      "width": "686",
+      "height": "490",
+      "viewType": "carIcon"
+    },
+    {
+      "offsetToLeft": "0",
+      "offsetToTop": "0",
+      "width": "750",
+      "height": "1125",
+      "viewType": "background"
+    },
+    {
+      "offsetToLeft": "479",
+      "offsetToTop": "880",
+      "width": "220",
+      "height": "60",
+      "viewType": "logoIcon"
+    }
+  ],
+  "textList": [
+    {
+      "offsetToLeft": "37",
+      "offsetToTop": "845",
+      "width": "520",
+      "height": "78",
+      "viewType": "brand",
+      "text": "车辆品牌",
+      "textSize": "64",
+      "textColor": "#F16173"
+    },
+    {
+      "offsetToLeft": "37",
+      "offsetToTop": "925",
+      "width": "418",
+      "height": "75",
+      "viewType": "price",
+      "text": "86.45万",
+      "textSize": "62",
+      "textColor": "#F16173"
+    },
+    {
+      "offsetToLeft": "47",
+      "offsetToTop": "1029",
+      "width": "391",
+      "height": "49",
+      "viewType": "firstPlateDate",
+      "text": "2014年12月上牌|12.32万公里",
+      "textSize": "28",
+      "textColor": "#F16173"
+    }
+  ]
+}
